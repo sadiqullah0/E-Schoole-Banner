@@ -1,0 +1,95 @@
+/* font family :start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/* common css start */
+:root{
+    --black:#000000;
+    --red:#FD511A;
+    --green:#21B573;
+    --white:#ffffff;
+    --pop:"Poppins", sans-serif;
+    --rob:"Roboto", sans-serif;
+}
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* common css end */
+/* header start */
+
+header{
+    background-color:#F0FFF0;
+    padding: 15px 0;
+   }
+   .c_nav{}
+   .logo{}
+   .menu ul li a{
+    color: var(--black) !important; 
+    padding: 0 20px !important;
+   }
+   .menu ul li a:hover{
+    color: var(--red) !important;  
+   }
+
+   .btn_cm{
+    background-color: var(--green);
+    border: none;
+    border-radius: 33px;
+
+    font-family: var(--pop);
+    color: var(--white);
+   }
+   .btn_sign_in{
+    width: 105px;
+    height: 45px;
+    padding: 10px 25px;
+   }
+   .btn_cm:hover{
+    background-color: var(--red);
+    color: var(--white);
+   }
+   .btn_cm:active{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+   }
+   .nav_t:focus {
+    box-shadow:-webkit-box-shadow: 0px 0px 0px 3px rgba(41,217,50,1);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(41,217,50,1);
+    box-shadow: 0px 0px 0px 3px var(--green);
+   }
+/* header end*/
+/* banner start */
+.banner{
+    background-color:#F0FFF0;
+    padding-bottom: 65px;
+}
+
+.b_text{}
+
+.b_p1{
+    color: var(--red);
+}
+.b_h1{
+    margin: 10px 35px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: var(--#000000);
+}
+.b_h1 span{
+    color: var(--green);
+}
+.b_p2{
+    line-height: 36px;
+}
+.btn_get{
+    margin: 15px 0 0 ;
+    padding: 12px 36px;
+}
+
+.b_img{
+    margin: 0 50px;
+}
+/* banner end */
